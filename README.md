@@ -8,7 +8,7 @@ Parameters of the defense can be changed in the `env` file through the `PELTA` a
 
 <ol>
   <li>Install the packages listed in the Software Installation Section (see below).</li>
-  <li>Download the models from this Kaggle [dataset link](www.kaggle.com/reyacardov/ensemblemodels)
+  <li>Download the models from this Kaggle <a href="www.kaggle.com/reyacardov/ensemblemodels">dataset link</a>
   <li>Move both models into the ".\ExtendedPelta\Models" folder</li>
   <li>Run the main in the Python IDE of your choice</li>
 </ol>

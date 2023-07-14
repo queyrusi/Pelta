@@ -1,5 +1,5 @@
 # Mitigating Adversarial Attacks in Federated Learning with Trusted Execution Environments
-Code base for the **Mitigating Adversarial Attacks in Federated Learning with Trusted Execution Environments** paper submitted to ICDCS2023.
+Code base for the **Mitigating Adversarial Attacks in Federated Learning with Trusted Execution Environments** paper accepted at ICDCS2023.
 
 Code is provided for applying the Pelta defense scheme to an ensemble of Vision Transformer (ViT-L-16) and and Big Transfer Model (BiT-M-R101x3) against the Self-Attention Gradient Attack (original attack code from authors, [paper here](https://openaccess.thecvf.com/content/ICCV2021/html/Mahmood_On_the_Robustness_of_Vision_Transformers_to_Adversarial_Examples_ICCV_2021_paper.html)). The defense provided here works for CIFAR-10 and was coded entirely on PyTorch.
 Parameters of the defense can be changed in the `env` file through the `PELTA` and `SHIELDED`parameters (set to `True` and `BOTH` by default).
